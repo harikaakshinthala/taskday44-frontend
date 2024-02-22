@@ -1,0 +1,65 @@
+.cardDiv {
+    padding: calc(10px + 1vw);
+    display: flex;
+    flex-wrap: wrap;
+    gap: calc(10px + 1vw);
+    justify-content: space-around;
+}
+
+
+
+
+.urlCard {
+    padding: calc(5px + 1vw);
+
+
+
+}
+
+.urlCard>:nth-child(1) {
+    padding: calc(5px + 1vw);
+    border-radius: calc(4px + 0.3vw);
+    box-shadow: 0 0 calc(3px + 1vw) rgb(30, 116, 30);
+
+}
+
+.urlCard>:nth-child(1)>:nth-child(2) {
+
+    padding: calc(5px + 1vw);
+    gap: calc(5px + 1vw);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bolder;
+}
+
+.urlCard>:nth-child(1)>:nth-child(2)>:nth-child(1) {
+    font-size: calc(8px + 0.5vw);
+
+}
+
+.urlCard>:nth-child(1)>:nth-child(1) {
+    font-weight: bolder;
+    font-size: calc(12px + 0.5vw);
+    text-align: center;
+    background: -webkit-linear-gradient(rgb(77, 255, 0), rgb(4, 60, 1));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.urlCard>:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    gap: calc(2px + 1vw);
+}
+
+.urlCard>:nth-child(1)>:nth-child(2)>:nth-child(2) {
+    font-size: calc(7px + 0.5vw);
+    text-align: center;
+
+}
+
+button:hover{
+    transform: scale(1.05);
+    transition: all ease-in-out 100ms;
+}

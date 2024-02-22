@@ -1,0 +1,67 @@
+.formdiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    height: 100vh;
+}
+
+.tittle {
+    font-weight: bolder;
+    font-size: calc(20px + 0.5vw);
+    letter-spacing: calc(1px + 0.3vw);
+    background: -webkit-linear-gradient(rgb(77, 255, 0), rgb(4, 60, 1));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+.message {
+    color: red;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: calc(100px + 35vw);
+    padding: calc(20px + 1vw);
+    gap: calc(10px + 1vw);
+    border-radius: calc(5px + 1vw);
+    box-shadow: 0 0 calc(5px + 1vw) rgb(3, 128, 3);
+    background-color: rgb(213, 253, 213);
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: calc(10px + 1vw);
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    font-size: calc(10px + 0.5vw);
+}
+
+a:hover {
+    text-decoration: underline;
+    transform: scale(1.1);
+    transition: all ease-in-out 300ms;
+    color: inherit;
+}
+
+.urlVerificationDiv {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+   padding-top: 20vh;
+}
+
+.userEntryDiv{
+    background-color: rgb(32, 101, 2);
+}

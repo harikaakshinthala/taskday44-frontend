@@ -1,0 +1,5 @@
+.button:hover{
+    transition: all ease-in-out 300ms ;
+    transform: scale(1.1);
+    color: rgb(77, 255, 6);;
+}

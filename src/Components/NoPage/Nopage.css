@@ -1,0 +1,20 @@
+.nopage{
+    height: 100vh;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nopage>:nth-child(1){
+    font-size: calc(13px + 20vw);
+    font-weight: bold;
+    color: grey;
+}
+.nopage>:nth-child(2){
+    font-size: calc(13px + 7vw);
+    font-weight: bold;
+    color: grey;
+}
