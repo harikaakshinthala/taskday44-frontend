@@ -135,7 +135,7 @@ const UrlVerification = () => {
 
             try {
 
-                const response = await fetch(`https://url-shortnerbackend-p5yz.onrender.com/verify/${params.id}`, {
+                const response = await fetch(`https://https://taskday44-url-shortner.onrender.com/verify/${params.id}`, {
                     method: "PUT",
                     body: JSON.stringify(),
                     headers: {
